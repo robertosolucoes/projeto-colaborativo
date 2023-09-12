@@ -1,0 +1,10 @@
+def calculadora(a, b, c):
+   if(c == 1): return print ("Este é o resultado soma de A e B: ", a + b)
+   elif(c == 2): return print ("Este é o resultado da Subtração de A e B:", a - b)
+   elif (c == 3): return print ("Este é o resultado da Multiplicação de A e B: ", a * b)
+   elif (c == 4): return print ("Este é o resultado da Divisão de A e B: ", a/b)
+   else:
+    return "Não Existe Operação nesta Opção"
+
+total = calculadora(2, 10, 5)
+print(total)
